@@ -17,7 +17,7 @@ function pairs(data){
     return ("There are "+pair+' pairs.');
 }
 
-console.log(pairs("ABCDE")); // should have return 0
+console.log(pairs("ABCDE")); // should have return 0;
 console.log(pairs("AA")); // should have return 1
 console.log(pairs("ABABC")); // should have return 2
 console.log(pairs("CABBACCC")) // should have return 4
