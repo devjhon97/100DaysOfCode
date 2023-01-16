@@ -1,0 +1,22 @@
+{
+  "name": "100daysofcode",
+  "version": "1.0.0",
+  "description": "100 challenges , 1 per day.",
+  "main": "day01.js",
+  "scripts": {
+    "test": "jest"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/devjhon97/100DaysOfCode.git"
+  },
+  "keywords": [
+    "100daysofcode"
+  ],
+  "author": "jhon",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/devjhon97/100DaysOfCode/issues"
+  },
+  "homepage": "https://github.com/devjhon97/100DaysOfCode#readme"
+}
