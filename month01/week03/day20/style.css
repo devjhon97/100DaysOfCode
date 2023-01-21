@@ -1,6 +1,6 @@
 body{
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    background-image: linear-gradient(to bottom right,rgb(255, 255, 0, 0.6),rgb(255, 165, 0, 0.6));
+    background-image: linear-gradient(to bottom right,#94D9FE,#8CC8F2);
     background-repeat: no-repeat;
     background-attachment: fixed;
 }
@@ -44,4 +44,11 @@ button{
     width: 70%;
     height: 50%;
     margin: 30px auto;
+}
+
+footer{
+    max-width: 600px;
+    text-align: center;
+    font: normal small-caps bold 1.5em/1em 'Calibri';
+    margin: auto;
 }
