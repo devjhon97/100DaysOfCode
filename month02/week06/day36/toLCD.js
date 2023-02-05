@@ -20,7 +20,7 @@ function toLCD(n,s){
                 if(index === 0 || index === 3 || index === 6){
                     output += ' ' + segment[index].repeat(s) + ' ';
                 }else{
-                    output += segment[index] += ' '.repeat(s);
+                    output += segment[index] + ' '.repeat(s);
                     if(nums[value][index+1]){
                         output += segment[index+1];
                     }else output += ' ';
@@ -51,4 +51,4 @@ function toLCD(n,s){
 
 console.log(toLCD(12345,2));
 console.log(toLCD(67890,3));
-console.log(toLCD(45726,4));
+console.log(toLCD(7354196,4));
