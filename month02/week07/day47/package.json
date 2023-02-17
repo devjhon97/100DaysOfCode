@@ -1,0 +1,11 @@
+{
+  "name": "zip",
+  "version": "1.0.0",
+  "description": "",
+  "main": "zip.js",
+  "scripts": {
+    "test": "jest"
+  },
+  "author": "",
+  "license": "ISC"
+}
