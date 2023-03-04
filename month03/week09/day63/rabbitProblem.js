@@ -2,7 +2,7 @@ function rabbitProblem(m, f, t){
     let month = 0;
     let rabbits = new Array(96).fill([0, 0]);
     rabbits[2] = [m, f];
-    let total = rabbits.reduce((prev, value) => prev+value[0]+value[1], 0);
+    let total = 0;
     
     while(total < t){    
         let newBorns = 0;
