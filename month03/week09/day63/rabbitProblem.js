@@ -21,4 +21,6 @@ function rabbitProblem(m, f, t){
     return month;
 }
 
-module.exports = rabbitProblem;
+console.log(rabbitProblem(2, 4, 1000000000)) // => 32
+console.log(rabbitProblem(2, 4, 15000000000)) // => 36
+console.log(rabbitProblem(1, 1, 70000000000)) // => 41
