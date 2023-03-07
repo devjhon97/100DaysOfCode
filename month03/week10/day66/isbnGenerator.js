@@ -1,5 +1,5 @@
 const ISBNvalidator = require ('../day65/isbnValidator');
-let res = false;
+let key = false;
 
 function ISBNGenerator(){
     let id = '';
@@ -20,6 +20,6 @@ function ISBNGenerator(){
     return false;
 }
 
-while(!res) res = ISBNGenerator();
+while(!key) key = ISBNGenerator();
 
-console.log('Código ISBN valido gerado: '+res);
+console.log('Código ISBN valido gerado: '+key);
