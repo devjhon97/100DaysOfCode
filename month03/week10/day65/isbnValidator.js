@@ -1,4 +1,4 @@
-function IBSNvalidator(id){
+function ISBNvalidator(id){
     id = id.replace(/[-]/g, '');
     if(id.length > 10) id = id.substring(0, id.length-2) + 'X';
     let sum = 0;
@@ -12,4 +12,4 @@ function IBSNvalidator(id){
     else return false;
 }
 
-module.exports = IBSNvalidator;
+module.exports = ISBNvalidator;
