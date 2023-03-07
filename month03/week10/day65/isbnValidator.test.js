@@ -1,4 +1,4 @@
-const ISBNvalidator = require('./ibsnValidator.js');
+const ISBNvalidator = require('./isbnValidator.js');
 
 describe('65th challenge #100DaysOfCode', ()=>{
     it('it should return true', ()=>{
