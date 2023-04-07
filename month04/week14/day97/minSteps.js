@@ -1,7 +1,7 @@
 const rl = require("readline-sync");
 
 function minSteps(x){
-    let steps = x%5 === 0 ? x/5 : Math.floor(x/5)+1;
+    let steps = x%5 === 0 ? x/5 : Math.ceil(x/5);
     return "O mínimo de passos que o Elefante dará para chegar na casa do amigo é: "+steps;
 }
 
